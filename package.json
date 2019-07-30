@@ -5,9 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
+    "dev": "nodemon --inspect",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["tasks", "projects", "users"],
+  "keywords": [
+    "tasks",
+    "projects",
+    "users"
+  ],
   "author": "Gulfran Romero",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
